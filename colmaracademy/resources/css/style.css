@@ -1,0 +1,516 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: .75rem;
+  line-height: 1.2;
+}
+
+h6 {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+p {
+  font-size: .75rem;
+  line-height: 1.2;
+}
+
+a {
+  font-size: .75rem;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1.5rem;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.item {
+  display: flex;
+}
+
+.item-pic {
+  width: 35%;
+  margin: 1rem;
+}
+
+.item-pic img {
+  width: 100%;
+  height: auto;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  padding-right: 1rem;
+}
+
+.item-text h5 {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.item-text a {
+  text-decoration: none;
+}
+
+.dark {
+  background-color: #CDCAC9;
+}
+
+.dark a {
+  color: white;
+}
+
+header {
+  position: fixed;
+  height: 64px;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+}
+
+header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+ .logoname {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.logoname .name1 {
+  padding-left: 0.25rem;
+}
+.logoname .name2 {
+  color: darkGray;
+}
+
+nav.desktop ul li:nth-child(n + 2) {
+  margin-left: 1rem;
+}
+
+.main {
+  top: 64px;
+  position: relative;
+  width: 100%;
+}
+
+.banner img {
+  width: 60%;
+  height: auto;
+}
+
+.banner {
+  background-color: #CDCAC9;
+}
+
+.jumbo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1.5rem;
+}
+
+.jumbo h3 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.start {
+  background-color: #a9a9a9;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.start a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.information {
+  background-color: white;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+
+.info-main {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-right: 1.5rem;
+  padding-top: 1rem;
+}
+
+.info-main img {
+  width: 100%;
+  height: auto;
+}
+
+.info-main h2 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.info-main p {
+  font-family: 'Libre Baskerville', serif;
+  padding-bottom: 2rem;
+}
+
+.startlearning {
+  flex-direction: column;
+  padding: 1rem 3.5rem;
+  background-color: lightGray;
+}
+
+.startlearning h2 {
+  padding-top: 1rem;
+}
+
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 1rem 1.5rem 1rem;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1rem solid lightGray;
+  width: 30%;
+}
+
+.section img {
+  width: 100%;
+  height: auto;
+}
+
+.section h3 {
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.section-notes {
+  display: flex;
+  flex-direction: column;
+  padding: .5rem 1rem 1.5rem 1rem;
+  width: auto;
+}
+
+.courses {
+  padding-bottom: .5rem;
+}
+
+.thesisexhibits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thesisexhibits h2 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+
+}
+
+.thesis {
+  background-color: white;
+  align-items: flex-start;
+  padding-top: 1rem;
+  border-bottom: 1px solid #CDCAC9;
+}
+
+.thesis-main {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-right: 1.5rem;
+}
+
+.thesis-main video {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-main h3 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.thesis-main p {
+  font-family: 'Libre Baskerville', serif;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .desktop {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5, p, a {
+    font-size: 1rem;
+  }
+
+  nav.mobile {
+    width: 100%;
+  }
+  nav ul {
+    justify-content: space-around;
+  }
+
+  .banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .jumbo {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2rem;
+  }
+
+  .start a {
+    font-size: 1.25rem;
+  }
+
+  .information {
+    padding: 0rem 0rem 1rem 0rem;
+  }
+
+  .item {
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+  }
+
+  .items {
+    width: 100%;
+  }
+
+  .item-pic {
+    width: 100%;
+    margin: 0;
+  }
+
+  .item-text {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+  }
+
+  .dark {
+    background-color: white;
+  }
+
+  .dark a {
+    color: #ABABC3;
+  }
+
+  .startlearning {
+    padding: 0rem;
+  }
+
+  .sections {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 1rem .25rem 1.75rem .25rem;
+    width: 100%;
+  }
+
+  .section {
+    width: 100%;
+    padding: 1rem .5rem;
+    background-color: #CDCAC9;
+    border: .25rem solid #CDCAC9;
+  }
+
+  .section h3 {
+    color: white;
+    padding: 0rem;
+  }
+
+  .thesis {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .thesis-main {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .mobile {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2.50rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h5, p, a {
+    font-size: .75rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .mobile {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  h3 {
+    font-size: 1.50rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5, p, a {
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .mobile {
+    display: none;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h2 {
+    font-size: 2.50rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.75rem;
+  }
+
+  h5 {
+    font-size: 1.50rem;
+  }
+
+  p, a {
+    font-size: 1.25rem;
+  }
+}
